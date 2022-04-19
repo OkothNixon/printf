@@ -7,6 +7,7 @@
  * print_unsigned - manage unsigned int
  * @ap: arg list
  * Return: value number of printed chars
+ * collab by shelvin and nixon
  */
 
 int print_unsigned(va_list ap)
@@ -16,7 +17,7 @@ int print_unsigned(va_list ap)
 	return (print_unsigned_number(argument));
 }
 /**
- * print_ptr - print adress
+ * print_ptr - print address
  * @ap: arg void
  * Return: number of printed char
  */

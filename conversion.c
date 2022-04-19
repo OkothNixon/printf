@@ -5,6 +5,7 @@
  * @nb: digit or number
  * @upper: upper case check
  * Return: converted value
+ * collab by shelvin and nixon
  */
 
 int convert_alpha_numeric(int nb, int upper)
@@ -57,13 +58,13 @@ char *convert_base(unsigned long nb, unsigned int base, int upper)
 
 char *convert_base_pointer(unsigned long p)
 {
-	unsigned long adress;
+	unsigned long address1;
 	char *str;
 
-	adress = p;
-	if (adress == 0)
+	address1 = p;
+	if (address1 == 0)
 		return ("0");
-	str = convert_base(adress, 16, 0);
+	str = convert_base(address1, 16, 0);
 	return (str);
 }
 /**

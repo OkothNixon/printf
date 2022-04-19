@@ -6,6 +6,7 @@
  * print_nbr - print number
  * @ap: arg list
  * Return: number of printed char
+ * collab by shelvin and nixon
  */
 
 int print_nbr(va_list ap)

@@ -8,7 +8,7 @@ _printf
 .SH SYNOPSIS
 .P
 .B #include
-"holberton.h"
+"main.h"
 
 .I
 int
