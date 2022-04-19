@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_c - Print characters (%c)
+* print_c - Print characters (%c) to stdout
 * @ar_list: Store the a list of characters
 * Return: num of parameters printed
 */
@@ -14,7 +14,7 @@ int print_c(va_list ar_list)
 	return (_putchar(c));
 }
 /**
-* print_s - print string (%s)
+* print_s - print string (%s) to stdout
 * @ar_list: Store the a list of characters
 * Return: num of parameters printed
 */
