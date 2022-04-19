@@ -2,7 +2,7 @@
 
 /**
  * print_b - Convert of decimals in binary
- * @binary_list: Store the argumen values
+ * @binary_list: Store the argument values
  * Return: The count
  */
 
